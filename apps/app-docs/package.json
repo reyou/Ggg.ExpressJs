@@ -1,0 +1,29 @@
+{
+  "name": "gggexpress",
+  "version": "1.0.0",
+  "description": "GameGoGo Node.js and Express.js application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ggg",
+    "node",
+    "express"
+  ],
+  "author": "aozdemir",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "bootstrap": "^4.0.0-alpha.6",
+    "cookie-parser": "^1.4.3",
+    "debug": "^2.6.8",
+    "express": "^4.15.3",
+    "express-generator": "^4.15.0",
+    "jade": "^1.11.0",
+    "mongodb": "^2.2.30",
+    "opn": "^5.1.0",
+    "pug": "^2.0.0-rc.2",
+    "tedious": "^2.0.0"
+  }
+}
