@@ -22,7 +22,7 @@ $ npm run start
 You can attach a debugger. 
 
 $ npm run debug
-launch.json has debugger settings.
+\.vscode\launch.json has debugger settings.
 Hit F5, and set breakpoint to any line.
 For example open "\src\controllers\contact.ts" set breakpoint:
 and hit url: http://localhost:3000/contact
