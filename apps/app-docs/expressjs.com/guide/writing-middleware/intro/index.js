@@ -50,11 +50,11 @@ function getInterfaces(){
           if (alias >= 1) {
             // this single interface has multiple ipv4 addresses
             // console.log(ifname + ':' + alias, iface.address);
-            result += ifname + ':' + alias + " " + iface.address + " ";
+            result += ifname + ':' + alias + " " + iface.address + " / ";
           } else {
             // this interface has only one ipv4 adress
             // console.log(ifname, iface.address);
-            result += ifname + " " + iface.address + " ";
+            result += ifname + " " + iface.address + " / ";
           }
           ++alias;
         });
