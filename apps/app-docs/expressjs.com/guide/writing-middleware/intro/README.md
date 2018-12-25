@@ -1,8 +1,10 @@
 ### URLs
 https://expressjs.com/en/guide/writing-middleware.html
+http://localhost:3010
 
 ### Run
 $ npm init
+$ npm i
 $ npm install express
 $ node index.js
 
