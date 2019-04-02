@@ -12,3 +12,10 @@ server started at http://localhost:8080
 Copy-Item "qqq\*" -Destination "www" -Recurse
 Copy-Item "C:\Github\Ggg.Github\Ggg.ExpressJs\apps\app-web\developer.okta.com\blog\node-express-typescript\intro4-add-authentication\*" -Destination "C:\Github\Ggg.Github\Ggg.ExpressJs\apps\app-web\developer.okta.com\blog\node-express-typescript\intro5-api-with-node-and-postgresql" -Recurse
 ```
+
+### Docker
+```
+$ sudo docker pull postgres:latest
+$ sudo docker run -d --name guitar-db -p 5432:5432 -e 'POSTGRES_PASSWORD=p@ssw0rd42' postgres
+$ sudo docker start guitar-db
+```
