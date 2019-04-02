@@ -1,12 +1,18 @@
 ### URLs
 https://expressjs.com/en/guide/writing-middleware.html
+http://localhost:3010
 
 ### Run
-$ npm init
+
+```
+$ npm init  
+$ npm i  
 $ npm install express
 $ node index.js
+```
 
 ### Notes
+
 Middleware functions are functions that have access to the request object (req), the response object (res), and the next function in the application’s request-response cycle. 
 
 The next function is a function in the Express router which, when invoked, executes the middleware succeeding the current middleware.
