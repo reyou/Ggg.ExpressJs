@@ -10,5 +10,5 @@ server started at http://localhost:8080
 ### Copy Files
 ```
 Copy-Item "qqq\*" -Destination "www" -Recurse
-Copy-Item "C:\Github\Ggg.Github\Ggg.ExpressJs\apps\app-web\developer.okta.com\blog\node-express-typescript\intro3-configuration-settings\*" -Destination "C:\Github\Ggg.Github\Ggg.ExpressJs\apps\app-web\developer.okta.com\blog\node-express-typescript\intro4-add-authentication" -Recurse
+Copy-Item "C:\Github\Ggg.Github\Ggg.ExpressJs\apps\app-web\developer.okta.com\blog\node-express-typescript\intro4-add-authentication\*" -Destination "C:\Github\Ggg.Github\Ggg.ExpressJs\apps\app-web\developer.okta.com\blog\node-express-typescript\intro5-api-with-node-and-postgresql" -Recurse
 ```
