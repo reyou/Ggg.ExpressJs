@@ -6,11 +6,13 @@ $ npm run start
 $ npm run dev
 ```
 server started at http://localhost:8080
+server started at http://localhost:8081
 
 ### Copy Files
 ```
 Copy-Item "qqq\*" -Destination "www" -Recurse
-Copy-Item "C:\Github\Ggg.Github\Ggg.ExpressJs\apps\app-web\developer.okta.com\blog\node-express-typescript\intro4-add-authentication\*" -Destination "C:\Github\Ggg.Github\Ggg.ExpressJs\apps\app-web\developer.okta.com\blog\node-express-typescript\intro5-api-with-node-and-postgresql" -Recurse
+$ sudo cp -recursive qqq/ --target-directory=www/
+$ sudo cp -recursive qqq/ --target-directory=www/
 ```
 
 ### Docker
