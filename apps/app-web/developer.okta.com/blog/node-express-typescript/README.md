@@ -11,8 +11,12 @@ server started at http://localhost:8081
 ### Copy Files
 ```
 Copy-Item "qqq\*" -Destination "www" -Recurse
-$ sudo cp -recursive qqq/ --target-directory=www/
-$ sudo cp -recursive qqq/ --target-directory=www/
+$ sudo cp -R "qqq/." "www/"
+```
+
+### Remove
+```
+$ sudo rm -r "/home/qqq"
 ```
 
 ### Docker
